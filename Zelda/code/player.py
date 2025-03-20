@@ -3,7 +3,7 @@ from settings import *
 from support import import_folder
 
 class Player(pygame.sprite.Sprite):
-    def __init__(self, pos, groups, obstacles_sprites):
+    def __init__(self, pos, groups, obstacles_sprites, create_attack):
         super().__init__(groups)
         self.image = pygame.image.load('./graphics/test/player.png').convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
@@ -22,6 +22,7 @@ class Player(pygame.sprite.Sprite):
         self.attacking = False
         self.attack_cooldown = 400
         self.attack_time = None
+        self.create_attack = create_attack
 
         self.obstacles_sprites = obstacles_sprites
 
@@ -64,7 +65,7 @@ class Player(pygame.sprite.Sprite):
             if keys[pygame.K_SPACE]:
                 self.attacking = True 
                 self.attack_time = pygame.time.get_ticks()
-                print('attack')
+                self.create_attack()
             # magic input 
             if keys[pygame.K_LCTRL]:
                 self.attacking = True  
