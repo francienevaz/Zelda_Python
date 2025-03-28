@@ -4,11 +4,12 @@ import os
 class Weapon(pygame.sprite.Sprite):
     def __init__(self, player, groups):
         super().__init__(groups)
+        self.sprite_type = 'weapon'
         direction = player.status.split('_')[0]
         print(direction) 
 
         # graphic
-        full_path = os.path.abspath(f'../Zelda/graphics/weapons/{player.weapon}/{direction}.png')
+        full_path = os.path.abspath(f'./graphics/weapons/{player.weapon}/{direction}.png')
         print(f'Caminho absoluto gerado: {full_path}')
         self.image = pygame.image.load(full_path).convert_alpha()
 
