@@ -36,6 +36,7 @@ class Enemy(Entity):
 		self.can_attack = True
 		self.attack_time = None
 		self.attack_cooldown = 400
+		self.damage_player = damage_player
 
 		# invincibility timer
 		self.vulnerable = True
@@ -97,16 +98,17 @@ class Enemy(Entity):
 			alpha = self.wave_value()
 			self.image.set_alpha(alpha)
 		else:
-			self.image.set_alpha(255)	
+			self.image.set_alpha(255)
 
-	def cooldown(self):
+	def cooldowns(self):
+		current_time = pygame.time.get_ticks()
 		if not self.can_attack:
-			current_time = pygame.time.get_ticks()
 			if current_time - self.attack_time >= self.attack_cooldown:
 				self.can_attack = True
-			if not self.vulnerable:
-				if current_time - self.hit_time >= self.invincibility_duration:
-    					self.vulnerable = True
+
+		if not self.vulnerable:
+			if current_time - self.hit_time >= self.invincibility_duration:
+				self.vulnerable = True	
 
 	def get_damage(self,player,attack_type):
 		if self.vulnerable:
@@ -131,7 +133,7 @@ class Enemy(Entity):
 		self.hit_reaction()	
 		self.move(self.speed)
 		self.animate()
-		self.cooldown()
+		self.cooldowns()
 		self.check_death()
 
 	def enemy_update(self,player):

@@ -205,7 +205,7 @@ class Player(Entity):
             self.image.set_alpha(255)
 
     def get_full_weapon_damage(self):
-        base_damage = self.stats['damage']
+        base_damage = self.stats['attack']
         weapon_damage = weapon_data[self.weapon]['damage']
         return base_damage + weapon_damage            
 
