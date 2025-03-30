@@ -6,9 +6,10 @@ from entity import Entity
 class Player(Entity):
     def __init__(self, pos, groups, obstacles_sprites, create_attack, destroy_weapon, create_magic ):
         super().__init__(groups)
-        self.image = pygame.image.load('./graphics/test/player.png').convert_alpha()
+        self.image = pygame.image.load('../graphics/test/player.png').convert_alpha()
         self.rect = self.image.get_rect(topleft = pos)
         self.hitbox = self.rect.inflate(0, -26)
+        self.is_dead = False
 
         # graphics setup
 
@@ -55,7 +56,7 @@ class Player(Entity):
         self.invulnerability_duration = 500
 
     def import_player_assets(self):
-        character_path = './graphics/player/'
+        character_path = '../graphics/player/'
         self.animations = {
             'up': [], 'down': [], 'left': [], 'right': [],
             'up_idle': [], 'down_idle': [], 'left_idle': [], 'right_idle': [],
@@ -210,8 +211,26 @@ class Player(Entity):
         return base_damage + weapon_damage            
 
     def update(self):
-        self.input() 
-        self.cooldowns()
-        self.get_status()
-        self.animate()
-        self.move(self.speed)       
+        if not self.is_dead:
+            self.input() 
+            self.cooldowns()
+            self.get_status()
+            self.animate()
+            self.move(self.speed)
+
+            if self.health <= 0:
+                self.death()    
+
+    def death(self):
+        if self.health <= 0 and not self.is_dead:
+            self.is_dead = True  # Nova flag para evitar processamento múltiplo
+            self.kill()
+        
+            # Resetar todos os estados (para quando o jogo reiniciar)
+            self.health = self.stats['health'] * 0.5
+            self.energy = self.stats['energy'] * 0.8
+            self.attacking = False
+            self.vulnerable = False
+        
+            return "player_died"
+        return None              

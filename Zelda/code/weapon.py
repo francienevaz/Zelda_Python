@@ -9,7 +9,7 @@ class Weapon(pygame.sprite.Sprite):
         print(direction) 
 
         # graphic
-        full_path = os.path.abspath(f'./graphics/weapons/{player.weapon}/{direction}.png')
+        full_path = os.path.abspath(f'../graphics/weapons/{player.weapon}/{direction}.png')
         print(f'Caminho absoluto gerado: {full_path}')
         self.image = pygame.image.load(full_path).convert_alpha()
 

@@ -9,6 +9,7 @@ from weapon import Weapon
 from ui import UI
 from enemy import Enemy
 from particles import AnimationPlayer
+from Factories import EntityFactory
 
 class Level:
     def __init__(self):
@@ -35,58 +36,79 @@ class Level:
     
     def create_map(self):
         layouts = {
-            'boundary': import_csv_layout('./map/map_FloorBlocks.csv'),
-            'grass': import_csv_layout('./map/map_Grass.csv'),
-            'object': import_csv_layout('./map/map_Objects.csv'),
-            'entities': import_csv_layout('./map/map_Entities.csv')
+            'boundary': import_csv_layout('../map/map_FloorBlocks.csv'),
+            'grass': import_csv_layout('../map/map_Grass.csv'),
+            'object': import_csv_layout('../map/map_Objects.csv'),
+            'entities': import_csv_layout('../map/map_Entities.csv')
         }
 
         graphics = {
-            'grass': import_folder('./graphics/grass'),
-            'object': import_folder('./graphics/objects'),
+            'grass': import_folder('../graphics/grass'),
+            'object': import_folder('../graphics/objects'),
         }
-    
+
         for style, layout in layouts.items():
             for row_index, row in enumerate(layout):
                 for col_index, col in enumerate(row):
                     if col != '-1':
                         x = col_index * TILESIZE
                         y = row_index * TILESIZE
-                        if style == 'boundary':
-                            Tile((x, y), [self.obstacles_sprites], 'invisible')
-                        if style == 'grass':
-                            random_grass_image = choice(graphics['grass'])
-                            Tile((x,y), 
-                                [self.visible_sprites, self.obstacles_sprites, self.attackable_sprites], 
-                                'grass', random_grass_image)
-                            
-                        if style == 'object':
-                            surf = graphics['object'][int(col)]  
-                            Tile((x,y), [self.visible_sprites, self.obstacles_sprites], 'object', surf)
-                        if style == 'entities':
-                            if col == '394':
-                                self.player = Player(
-                                    (x,y),
-                                    [self.visible_sprites],
-                                    self.obstacles_sprites,
-                                    self.create_attack,
-                                    self.destroy_weapon,
-                                    self.create_magic  
-                                )  
-                            else:
-                                if col == '390': monster_name = 'bamboo'
-                                elif col == '391': monster_name = 'spirit'
-                                elif col == '392': monster_name = 'raccoon'
-                                else: monster_name = 'squid'
-                                Enemy(
-                                    monster_name,
-                                    (x,y), 
-                                    [self.visible_sprites, self.attackable_sprites], 
-                                    self.obstacles_sprites,
-                                    self.damage_player,
-                                    self.trigger_death_particles
-                                )
 
+                        if style == 'boundary':
+                            # Apenas obstacles_sprites, invisível
+                            EntityFactory.create_entity(
+                                'boundary', 
+                                (x, y), 
+                                [None, self.obstacles_sprites]  # groups[1] é obstacles_sprites
+                            )
+
+                        elif style == 'grass':
+                            random_grass_image = choice(graphics['grass'])
+                            EntityFactory.create_entity(
+                                'grass',
+                                (x, y),
+                                [self.visible_sprites, self.obstacles_sprites, self.attackable_sprites],
+                                surface=random_grass_image
+                            )
+
+                        elif style == 'object':
+                            surf = graphics['object'][int(col)]
+                            EntityFactory.create_entity(
+                                'object',
+                                (x, y),
+                                [self.visible_sprites, self.obstacles_sprites],
+                                surface=surf
+                            )
+
+                        elif style == 'entities':
+                            if col == '394':  # Player
+                                self.player = EntityFactory.create_entity(
+                                    'player',
+                                    (x, y),
+                                    [self.visible_sprites],
+                                    obstacles_sprites=self.obstacles_sprites,
+                                    create_attack=self.create_attack,
+                                    destroy_weapon=self.destroy_weapon,
+                                    create_magic=self.create_magic
+                                )
+                            else:  # Inimigos
+                                monster_name = {
+                                    '390': 'bamboo',
+                                    '391': 'spirit',
+                                    '392': 'raccoon',
+                                    '393': 'squid'  # Adicionei o código para squid
+                                }.get(col)
+                                
+                                if monster_name:  # Só cria se for um código válido
+                                    EntityFactory.create_entity(
+                                        'enemy',
+                                        (x, y),
+                                        [self.visible_sprites, self.attackable_sprites],
+                                        obstacles_sprites=self.obstacles_sprites,
+                                        damage_player=self.damage_player,
+                                        trigger_death_particles=self.trigger_death_particles,
+                                        monster_name=monster_name  # Passando o nome específico
+                                    )
     def create_attack(self):
         self.current_attack = Weapon(self.player, [self.visible_sprites, self.attack_sprites])
     
@@ -122,6 +144,13 @@ class Level:
             self.player.hurt_time = pygame.time.get_ticks()
             self.animation_player.create_particles(attack_type,self.player.rect.center,[self.visible_sprites])
 
+            # Verifica se o jogador morreu
+            if self.player.health <= 0:
+                self.animation_player.create_particles('spirit', self.player.rect.center, [self.visible_sprites])
+
+                # Tocaria um som de morte aqui
+                # pygame.mixer.Sound('./audio/death.wav').play()
+
     def trigger_death_particles(self,pos,particle_type):
         self.animation_player.create_particles(particle_type,pos,self.visible_sprites)
 
@@ -132,6 +161,19 @@ class Level:
         self.visible_sprites.enemy_update(self.player)
         self.player_attack_logic()
         self.ui.display(self.player)
+
+        # Verifica se o jogador morreu
+        if hasattr(self, 'player') and self.player.is_dead:
+            if not hasattr(self, 'death_time'):
+                self.death_time = pygame.time.get_ticks()
+                # Efeito visual de morte
+                self.animation_player.create_particles('spirit', self.player.rect.center, [self.visible_sprites])
+            
+            # Espera 2 segundos antes de retornar game_over
+            if pygame.time.get_ticks() - self.death_time > 2000:
+                return "game_over"
+        
+        return "playing"    
 
 class YSortCameraGroup(pygame.sprite.Group):
     def __init__(self):
@@ -145,7 +187,7 @@ class YSortCameraGroup(pygame.sprite.Group):
         self.offset = pygame.math.Vector2()
 
         # creating the floor
-        self.floor_surface = pygame.image.load('./graphics/tilemap/ground.png').convert()
+        self.floor_surface = pygame.image.load('../graphics/tilemap/ground.png').convert()
         self.floor_rect = self.floor_surface.get_rect(topleft = (0, 0))
 
     def custom_draw(self, player):
