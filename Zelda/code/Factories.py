@@ -1,8 +1,8 @@
-from entity import Entity
-from player import Player
-from enemy import Enemy
-from tile import Tile
-from settings import weapon_data, monster_data
+from code.entity import Entity
+from code.player import Player
+from code.enemy import Enemy
+from code.tile import Tile
+from code.settings import weapon_data, monster_data
 import random
 
 class EntityFactory:

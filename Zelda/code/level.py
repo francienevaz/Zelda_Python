@@ -1,16 +1,15 @@
 import pygame
-from settings import *
-from tile import Tile
-from player import Player
-from debug import debug
+from code.settings import *
+from code.tile import Tile
+from code.player import Player
 from random import choice, randint
-from weapon import Weapon
-from ui import UI
-from enemy import Enemy
-from particles import AnimationPlayer
-from factories import EntityFactory
-from support import load_map_layout, load_image_assets
-from sound import SoundManager
+from code.weapon import Weapon
+from code.ui import UI
+from code.enemy import Enemy
+from code.particles import AnimationPlayer
+from code.factories import EntityFactory
+from code.support import load_map_layout, load_image_assets
+from code.sound import SoundManager
 
 class Level:
     def __init__(self):
@@ -40,15 +39,15 @@ class Level:
     
     def create_map(self):
         layouts = {
-            'boundary': load_map_layout('../map/map_FloorBlocks.csv'),
-            'grass': load_map_layout('../map/map_Grass.csv'),
-            'object': load_map_layout('../map/map_Objects.csv'),
-            'entities': load_map_layout('../map/map_Entities.csv')
+            'boundary': load_map_layout(resource_path('map/map_FloorBlocks.csv')),
+            'grass': load_map_layout(resource_path('map/map_Grass.csv')),
+            'object': load_map_layout(resource_path('map/map_Objects.csv')),
+            'entities': load_map_layout(resource_path('map/map_Entities.csv')),
         }
 
         graphics = {
-            'grass': load_image_assets('../graphics/grass'),
-            'object': load_image_assets('../graphics/objects'),
+            'grass': load_image_assets(resource_path('graphics/grass')),
+            'object': load_image_assets(resource_path('graphics/objects')),
         }
 
         for style, layout in layouts.items():
@@ -172,7 +171,7 @@ class YSortCameraGroup(pygame.sprite.Group):
         self.half_height = self.display_surface.get_size()[1] // 2
         self.offset = pygame.math.Vector2()
 
-        self.floor_surface = pygame.image.load('../graphics/tilemap/ground.png').convert()
+        self.floor_surface = pygame.image.load(resource_path('graphics/tilemap/ground.png')).convert()
         self.floor_rect = self.floor_surface.get_rect(topleft=(0, 0))
 
     def custom_draw(self, player):

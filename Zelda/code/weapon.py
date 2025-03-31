@@ -1,5 +1,6 @@
 import pygame
 import os
+from code.settings import *
 
 class Weapon(pygame.sprite.Sprite):
     def __init__(self, player, groups):
@@ -9,7 +10,8 @@ class Weapon(pygame.sprite.Sprite):
         print(direction) 
 
         # graphic
-        full_path = os.path.abspath(f'../graphics/weapons/{player.weapon}/{direction}.png')
+        relative_path = f'graphics/weapons/{player.weapon}/{direction}.png'
+        full_path = resource_path(relative_path)
         print(f'Caminho absoluto gerado: {full_path}')
         self.image = pygame.image.load(full_path).convert_alpha()
 

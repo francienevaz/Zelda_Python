@@ -1,5 +1,5 @@
 import pygame
-from settings import *
+from code.settings import *
 
 class UI:
     def __init__(self):
@@ -10,9 +10,9 @@ class UI:
 
         # heart setup com redimensionamento
         self.heart_scale = 1.5  # 1.5 vezes o tamanho original
-        original_heart = pygame.image.load('../graphics/ui/heart.png').convert_alpha()
-        original_half = pygame.image.load('../graphics/ui/heart_half.png').convert_alpha()
-        original_empty = pygame.image.load('../graphics/ui/heart_off.png').convert_alpha()
+        original_heart = pygame.image.load(resource_path('graphics/ui/heart.png')).convert_alpha()
+        original_half = pygame.image.load(resource_path('graphics/ui/heart_half.png')).convert_alpha()
+        original_empty = pygame.image.load(resource_path('graphics/ui/heart_off.png')).convert_alpha()
 
         # Redimensiona todas as imagens
         new_size = (int(original_heart.get_width() * self.heart_scale), 

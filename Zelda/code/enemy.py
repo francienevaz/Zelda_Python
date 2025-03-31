@@ -1,7 +1,7 @@
 import pygame
-from settings import *
-from entity import Entity
-from support import *
+from code.settings import *
+from code.entity import Entity
+from code.support import *
 
 class Enemy(Entity):
     def __init__(self, monster_name, pos, groups, obstacles_sprites, damage_player, trigger_death_particles):
@@ -45,11 +45,12 @@ class Enemy(Entity):
 
     def import_graphics(self, name):
         self.animations = {'idle': [], 'move': [], 'attack': []}
-        main_path = f'../graphics/monsters/{name}/'
+        main_path_relative = f'graphics/monsters/{name}/'
 
         for animation in self.animations.keys():
-            animation_path = main_path + animation
-            self.animations[animation] = load_image_assets(animation_path)
+            animation_path_relative = os.path.join(main_path_relative, animation)
+            full_path = resource_path(animation_path_relative)
+            self.animations[animation] = load_image_assets(full_path)
 
     def get_player_distance_direction(self, player):
         enemy_vec = pygame.math.Vector2(self.rect.center)

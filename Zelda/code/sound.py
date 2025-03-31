@@ -1,14 +1,14 @@
 import pygame
-from settings import *
+from code.settings import *
 
 class SoundManager:
     def __init__(self):
         pygame.mixer.init()
         self.sounds = {
-            'sword': pygame.mixer.Sound('../audio/sword.wav'),
-            'heal': pygame.mixer.Sound('../audio/heal.wav'),
-            'hit':pygame.mixer.Sound('../audio/hit.wav'),
-            'death': pygame.mixer.Sound('../audio/death.wav')
+            'sword': pygame.mixer.Sound(resource_path('audio/sword.wav')),
+            'heal': pygame.mixer.Sound(resource_path('audio/heal.wav')),
+            'hit':pygame.mixer.Sound(resource_path('audio/hit.wav')),
+            'death': pygame.mixer.Sound(resource_path('audio/death.wav')),
             
         }
         

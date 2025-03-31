@@ -1,5 +1,5 @@
 import pygame
-from settings import *
+from code.settings import *
 
 class Menu:
     def __init__(self):
@@ -21,7 +21,7 @@ class Menu:
         self.background.set_alpha(200)
         
         # Logo do jogo (opcional)
-        self.logo = pygame.image.load('../graphics/player/down/down_0.png').convert_alpha()  # Crie uma imagem para o logo
+        self.logo = pygame.image.load(resource_path('graphics/player/down/down_0.png')).convert_alpha()  # Crie uma imagem para o logo
         self.logo_rect = self.logo.get_rect(center=(WIDTH//2, HEIGHT//4))
 
     def draw(self):
