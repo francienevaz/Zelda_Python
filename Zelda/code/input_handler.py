@@ -32,8 +32,3 @@ class InputHandler:
                 self.player.attacking = True
                 self.player.attack_time = pygame.time.get_ticks()
                 print('attack')
-            # magic input
-            if keys[pygame.K_LCTRL]:
-                self.player.attacking = True
-                self.player.attack_time = pygame.time.get_ticks()
-                print('magic')

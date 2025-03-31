@@ -10,6 +10,7 @@ from enemy import Enemy
 from particles import AnimationPlayer
 from factories import EntityFactory
 from support import load_map_layout, load_image_assets
+from sound import SoundManager
 
 class Level:
     def __init__(self):
@@ -19,6 +20,9 @@ class Level:
         # sprite group setup
         self.visible_sprites = YSortCameraGroup()
         self.obstacles_sprites = pygame.sprite.Group()
+
+        # sound
+        self.sound_manager = SoundManager()
 
         # attack sprites
         self.current_attack = None
@@ -85,7 +89,6 @@ class Level:
                                     obstacles_sprites=self.obstacles_sprites,
                                     create_attack=self.create_attack,
                                     destroy_weapon=self.destroy_weapon,
-                                    create_magic=self.create_magic
                                 )
                             else:
                                 monster_name = {
@@ -108,12 +111,8 @@ class Level:
     
     def create_attack(self):
         self.current_attack = Weapon(self.player, [self.visible_sprites, self.attack_sprites])
+        self.sound_manager.play('sword') 
     
-    def create_magic(self, style, strength, cost):
-        print(style)
-        print(strength)
-        print(cost)
-
     def destroy_weapon(self):
         if self.current_attack:
             self.current_attack.kill()
@@ -132,7 +131,8 @@ class Level:
                                 self.animation_player.create_grass_particles(pos - offset, [self.visible_sprites])
                             target_sprite.kill()
                         else:
-                            target_sprite.get_damage(self.player, attack_sprite.sprite_type)        
+                            target_sprite.get_damage(self.player, attack_sprite.sprite_type)
+                            self.sound_manager.play('hit')        
 
     def damage_player(self, amount, attack_type):
         if self.player.vulnerable:

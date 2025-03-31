@@ -13,6 +13,7 @@ ENERGY_BAR_WIDTH = 140         # Largura da barra de energia
 ITEM_BOX_SIZE = 80             # Tamanho dos slots de itens
 UI_FONT = '../graphics/font/joystix.ttf'  # Fonte utilizada na UI
 UI_FONT_SIZE = 18              # Tamanho base da fonte
+UI_SMALL_FONT_SIZE = 12         # Tamanho da fonte menor
 
 # Cores gerais
 WATER_COLOR = '#71ddee'        # Cor da água
@@ -20,9 +21,11 @@ UI_BG_COLOR = '#222222'        # Cor de fundo da UI
 UI_BORDER_COLOR = '#111111'    # Cor das bordas da UI
 TEXT_COLOR = '#EEEEEE'         # Cor do texto
 
+#Volume de áudio
+VOLUME_MUSIC = 0.5
+VOLUME_SFX = 0.7
+
 # Cores específicas da UI
-HEALTH_COLOR = 'red'           # Cor da barra de vida
-ENERGY_COLOR = 'blue'          # Cor da barra de energia/magia
 UI_BORDER_COLOR_ACTIVE = 'gold' # Cor da borda quando ativa/selecionada
 
 # Dados das armas disponíveis no jogo

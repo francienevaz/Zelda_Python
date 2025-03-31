@@ -2,15 +2,25 @@ import pygame, sys
 from settings import *
 from level import Level
 from menu import Menu
+from sound import *
 
 class GameEngine:
     def __init__(self):
         # Configuração inicial
         pygame.init()
         pygame.display.set_caption('Zora - Python')
+        pygame.mixer.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
         self.clock = pygame.time.Clock()
         self.level = None
+
+        # Sons
+        self.sound_manager = SoundManager() 
+        self.game_over_sound = None
+        self.load_sounds() 
+
+        # Carrega a música de fundo
+        self.load_music()
         
         # Estados do jogo
         self.states = {
@@ -44,7 +54,19 @@ class GameEngine:
         self.level = Level()
         self.current_state = 'game'
 
+    def load_sounds(self):
+        """Carrega todos os sons necessários"""
+        try:
+            self.game_over_sound = pygame.mixer.Sound('../audio/game_over.wav')
+            self.game_over_sound.set_volume(VOLUME_SFX)
+        except Exception as e:
+            print(f"Erro ao carregar sons: {e}")    
+
     def game_over_state(self):
+        # Toca o som de game over e para a música de fundo
+        pygame.mixer.music.stop()
+        self.game_over_sound.play()
+
         # Mostra mensagem de game over
         font = pygame.font.Font(UI_FONT, UI_FONT_SIZE * 3)
         text = font.render("GAME OVER", True, (255, 0, 0))
@@ -64,7 +86,10 @@ class GameEngine:
             if event.type == pygame.QUIT:
                 self.current_state = 'quit'
             if event.type == pygame.KEYDOWN or event.type == pygame.MOUSEBUTTONDOWN:
-                self.start_new_game()  # Reinicia o jogo
+                pygame.mixer.music.load('../audio/main.mp3')
+                pygame.mixer.music.play(-1)
+                self.current_state = 'menu'
+                # self.start_new_game()  # Reinicia o jogo
     
     def game_state(self):
         for event in pygame.event.get():
@@ -85,6 +110,15 @@ class GameEngine:
     def quit_state(self):
         pygame.quit()
         sys.exit()
+
+    def load_music(self):
+        """Carrega e configura a música de fundo"""
+        try:
+            pygame.mixer.music.load('../audio/main.mp3')
+            pygame.mixer.music.set_volume(VOLUME_MUSIC)
+            pygame.mixer.music.play(-1)  # -1 faz loop infinito
+        except Exception as e:
+            print(f"Erro ao carregar música: {e}")    
 
     def run(self):
         while True:

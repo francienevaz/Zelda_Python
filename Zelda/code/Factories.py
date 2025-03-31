@@ -2,7 +2,7 @@ from entity import Entity
 from player import Player
 from enemy import Enemy
 from tile import Tile
-from settings import weapon_data, magic_data, monster_data
+from settings import weapon_data, monster_data
 import random
 
 class EntityFactory:
@@ -18,14 +18,13 @@ class EntityFactory:
             raise ValueError(f"Tipo de entidade desconhecido: {entity_type}")
 
     @staticmethod
-    def create_player(pos, groups, obstacles_sprites, create_attack, destroy_weapon, create_magic):
+    def create_player(pos, groups, obstacles_sprites, create_attack, destroy_weapon):
         return Player(
             pos=pos,
             groups=groups,
             obstacles_sprites=obstacles_sprites,
             create_attack=create_attack,
             destroy_weapon=destroy_weapon,
-            create_magic=create_magic
         )
 
     @staticmethod
