@@ -1,0 +1,1810 @@
+('C:\\Users\\Fran '
+ 'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\main.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Fran '
+   'Fraga\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Fran '
+   'Fraga\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Fran '
+   'Fraga\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Fran '
+   'Fraga\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\Fran '
+   'Fraga\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Fran Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\main.py',
+   'PYSOURCE'),
+  ('python38.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\python38.dll',
+   'BINARY'),
+  ('libpng16-16.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('portmidi.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\portmidi.dll',
+   'BINARY'),
+  ('zlib1.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('libjpeg-9.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libopus-0.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('libwebp-7.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libwebp-7.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('libogg-0.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('freetype.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('libmodplug-1.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libmodplug-1.dll',
+   'BINARY'),
+  ('libopusfile-0.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libopusfile-0.dll',
+   'BINARY'),
+  ('libtiff-5.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libtiff-5.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('numpy\\.libs\\libopenblas.JPIJNSWNNAN3CE6LLI5FWSPHUT2VXMTH.gfortran-win_amd64.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\.libs\\libopenblas.JPIJNSWNNAN3CE6LLI5FWSPHUT2VXMTH.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_multiarray_umath.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_multiarray_tests.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32pdh.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\win32pdh.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\lapack_lite.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\lapack_lite.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\mtrand.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_sfc64.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_philox.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_pcg64.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_mt19937.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\bit_generator.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_generator.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_bounded_integers.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_common.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\imageext.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\imageext.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\scrap.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\scrap.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\mixer.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer_music.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\mixer_music.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\font.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\font.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\_freetype.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\_freetype.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\transform.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\transform.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\time.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\time.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelarray.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\pixelarray.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mask.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\mask.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surface.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\surface.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelcopy.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\pixelcopy.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mouse.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\mouse.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\key.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\key.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\joystick.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\joystick.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\image.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\image.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\event.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\event.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\draw.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\draw.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\display.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\display.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\math.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\math.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\bufferproxy.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\bufferproxy.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\color.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\color.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surflock.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\surflock.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rwobject.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\rwobject.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rect.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\rect.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\constants.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\constants.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\base.cp38-win_amd64.pyd',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\base.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('pygame\\zlib1.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('pygame\\SDL2.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('pygame\\libogg-0.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('pygame\\libopus-0.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('pygame\\libjpeg-9.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes38.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pywin32_system32\\pywintypes38.dll',
+   'BINARY'),
+  ('pygame\\libpng16-16.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('pygame\\SDL2_image.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('pygame\\SDL2_mixer.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('pygame\\SDL2_ttf.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('pygame\\freetype.dll',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('audio\\Fire.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\Fire.wav',
+   'DATA'),
+  ('audio\\attack\\claw.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\attack\\claw.wav',
+   'DATA'),
+  ('audio\\attack\\fireball.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\attack\\fireball.wav',
+   'DATA'),
+  ('audio\\attack\\slash.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\attack\\slash.wav',
+   'DATA'),
+  ('audio\\death.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\death.wav',
+   'DATA'),
+  ('audio\\game_over.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\game_over.wav',
+   'DATA'),
+  ('audio\\heal.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\heal.wav',
+   'DATA'),
+  ('audio\\hit.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\hit.wav',
+   'DATA'),
+  ('audio\\main.mp3',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\main.mp3',
+   'DATA'),
+  ('audio\\sword.wav',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\audio\\sword.wav',
+   'DATA'),
+  ('graphics\\font\\joystix.ttf',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\font\\joystix.ttf',
+   'DATA'),
+  ('graphics\\grass\\grass_1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\grass\\grass_1.png',
+   'DATA'),
+  ('graphics\\grass\\grass_2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\grass\\grass_2.png',
+   'DATA'),
+  ('graphics\\grass\\grass_3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\grass\\grass_3.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\attack\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\attack\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\idle\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\idle\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\idle\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\idle\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\idle\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\idle\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\idle\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\idle\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\move\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\move\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\move\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\move\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\move\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\move\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\bamboo\\move\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\bamboo\\move\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\attack\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\attack\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\attack\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\attack\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\attack\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\attack\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\attack\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\attack\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\4.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\idle\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\idle\\5.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\move\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\move\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\move\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\move\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\move\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\move\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\move\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\move\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\raccoon\\move\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\raccoon\\move\\4.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\attack\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\attack\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\idle\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\idle\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\idle\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\idle\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\idle\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\idle\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\idle\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\idle\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\move\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\move\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\move\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\move\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\move\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\move\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\spirit\\move\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\spirit\\move\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\attack\\0 - Copy (2).png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\attack\\0 '
+   '- Copy (2).png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\attack\\0 - Copy (3).png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\attack\\0 '
+   '- Copy (3).png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\attack\\0 - Copy.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\attack\\0 '
+   '- Copy.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\attack\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\attack\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\idle\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\idle\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\idle\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\idle\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\idle\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\idle\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\idle\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\idle\\3.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\idle\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\idle\\4.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\move\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\move\\0.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\move\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\move\\1.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\move\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\move\\2.png',
+   'DATA'),
+  ('graphics\\monsters\\squid\\move\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\monsters\\squid\\move\\3.png',
+   'DATA'),
+  ('graphics\\objects\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\0.png',
+   'DATA'),
+  ('graphics\\objects\\01.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\01.png',
+   'DATA'),
+  ('graphics\\objects\\02.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\02.png',
+   'DATA'),
+  ('graphics\\objects\\03.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\03.png',
+   'DATA'),
+  ('graphics\\objects\\04.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\04.png',
+   'DATA'),
+  ('graphics\\objects\\05.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\05.png',
+   'DATA'),
+  ('graphics\\objects\\06.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\06.png',
+   'DATA'),
+  ('graphics\\objects\\07.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\07.png',
+   'DATA'),
+  ('graphics\\objects\\08.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\08.png',
+   'DATA'),
+  ('graphics\\objects\\09.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\09.png',
+   'DATA'),
+  ('graphics\\objects\\10.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\10.png',
+   'DATA'),
+  ('graphics\\objects\\11.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\11.png',
+   'DATA'),
+  ('graphics\\objects\\12.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\12.png',
+   'DATA'),
+  ('graphics\\objects\\13.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\13.png',
+   'DATA'),
+  ('graphics\\objects\\14.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\14.png',
+   'DATA'),
+  ('graphics\\objects\\15.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\15.png',
+   'DATA'),
+  ('graphics\\objects\\16.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\16.png',
+   'DATA'),
+  ('graphics\\objects\\17.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\17.png',
+   'DATA'),
+  ('graphics\\objects\\18.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\18.png',
+   'DATA'),
+  ('graphics\\objects\\19.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\19.png',
+   'DATA'),
+  ('graphics\\objects\\20.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\objects\\20.png',
+   'DATA'),
+  ('graphics\\particles\\aura\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\aura\\0.png',
+   'DATA'),
+  ('graphics\\particles\\aura\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\aura\\1.png',
+   'DATA'),
+  ('graphics\\particles\\aura\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\aura\\2.png',
+   'DATA'),
+  ('graphics\\particles\\aura\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\aura\\3.png',
+   'DATA'),
+  ('graphics\\particles\\bamboo\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\bamboo\\0.png',
+   'DATA'),
+  ('graphics\\particles\\bamboo\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\bamboo\\1.png',
+   'DATA'),
+  ('graphics\\particles\\claw\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\claw\\0.png',
+   'DATA'),
+  ('graphics\\particles\\claw\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\claw\\1.png',
+   'DATA'),
+  ('graphics\\particles\\claw\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\claw\\2.png',
+   'DATA'),
+  ('graphics\\particles\\claw\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\claw\\3.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\fire.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\fire.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\0.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\01.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\01.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\02.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\02.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\03.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\03.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\04.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\04.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\05.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\05.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\06.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\06.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\07.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\07.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\08.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\08.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\09.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\09.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\10.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\10.png',
+   'DATA'),
+  ('graphics\\particles\\flame\\frames\\11.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\flame\\frames\\11.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\frames\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\frames\\0.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\frames\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\frames\\1.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\frames\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\frames\\2.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\frames\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\frames\\3.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\frames\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\frames\\4.png',
+   'DATA'),
+  ('graphics\\particles\\heal\\heal.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\heal\\heal.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00010.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00010.png',
+   'DATA'),
+  ('graphics\\particles\\leaf1\\leaf1_00011.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf1\\leaf1_00011.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00010.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00010.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00011.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00011.png',
+   'DATA'),
+  ('graphics\\particles\\leaf2\\leaf1_00012.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf2\\leaf1_00012.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf3\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf3\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf4\\leaf1_00010.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf4\\leaf1_00010.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf5\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf5\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00000.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00000.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00001.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00001.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00002.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00002.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00003.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00003.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00004.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00004.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00005.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00005.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00006.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00006.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00007.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00007.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00008.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00008.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00009.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00009.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00010.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00010.png',
+   'DATA'),
+  ('graphics\\particles\\leaf6\\leaf1_00011.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf6\\leaf1_00011.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\0.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\1.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\2.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\3.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\4.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\5.png',
+   'DATA'),
+  ('graphics\\particles\\leaf_attack\\6.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\leaf_attack\\6.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\0.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\1.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\2.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\3.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\4.png',
+   'DATA'),
+  ('graphics\\particles\\nova\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\nova\\5.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\0.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\1.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\2.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\3.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\4.png',
+   'DATA'),
+  ('graphics\\particles\\raccoon\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\raccoon\\5.png',
+   'DATA'),
+  ('graphics\\particles\\slash\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\slash\\0.png',
+   'DATA'),
+  ('graphics\\particles\\slash\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\slash\\1.png',
+   'DATA'),
+  ('graphics\\particles\\slash\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\slash\\2.png',
+   'DATA'),
+  ('graphics\\particles\\slash\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\slash\\3.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\0.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\1.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\2.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\3.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\4.png',
+   'DATA'),
+  ('graphics\\particles\\smoke2\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke2\\5.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\0.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\1.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\2.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\3.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\4.png',
+   'DATA'),
+  ('graphics\\particles\\smoke\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke\\5.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\0.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\1.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\2.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\3.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\4.png',
+   'DATA'),
+  ('graphics\\particles\\smoke_orange\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\smoke_orange\\5.png',
+   'DATA'),
+  ('graphics\\particles\\sparkle\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\sparkle\\0.png',
+   'DATA'),
+  ('graphics\\particles\\sparkle\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\sparkle\\1.png',
+   'DATA'),
+  ('graphics\\particles\\sparkle\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\sparkle\\2.png',
+   'DATA'),
+  ('graphics\\particles\\sparkle\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\sparkle\\3.png',
+   'DATA'),
+  ('graphics\\particles\\sparkle\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\sparkle\\4.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\0.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\1.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\2.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\3.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\4.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\4.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\5.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\5.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\6.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\6.png',
+   'DATA'),
+  ('graphics\\particles\\thunder\\7.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\particles\\thunder\\7.png',
+   'DATA'),
+  ('graphics\\player\\down\\down_0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down\\down_0.png',
+   'DATA'),
+  ('graphics\\player\\down\\down_1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down\\down_1.png',
+   'DATA'),
+  ('graphics\\player\\down\\down_2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down\\down_2.png',
+   'DATA'),
+  ('graphics\\player\\down\\down_3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down\\down_3.png',
+   'DATA'),
+  ('graphics\\player\\down_attack\\attack_down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down_attack\\attack_down.png',
+   'DATA'),
+  ('graphics\\player\\down_idle\\idle_down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\down_idle\\idle_down.png',
+   'DATA'),
+  ('graphics\\player\\left\\left_0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left\\left_0.png',
+   'DATA'),
+  ('graphics\\player\\left\\left_1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left\\left_1.png',
+   'DATA'),
+  ('graphics\\player\\left\\left_2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left\\left_2.png',
+   'DATA'),
+  ('graphics\\player\\left\\left_3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left\\left_3.png',
+   'DATA'),
+  ('graphics\\player\\left_attack\\attack_left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left_attack\\attack_left.png',
+   'DATA'),
+  ('graphics\\player\\left_idle\\idle_left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\left_idle\\idle_left.png',
+   'DATA'),
+  ('graphics\\player\\right\\right_0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right\\right_0.png',
+   'DATA'),
+  ('graphics\\player\\right\\right_1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right\\right_1.png',
+   'DATA'),
+  ('graphics\\player\\right\\right_2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right\\right_2.png',
+   'DATA'),
+  ('graphics\\player\\right\\right_3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right\\right_3.png',
+   'DATA'),
+  ('graphics\\player\\right_attack\\attack_right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right_attack\\attack_right.png',
+   'DATA'),
+  ('graphics\\player\\right_idle\\idle_right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\right_idle\\idle_right.png',
+   'DATA'),
+  ('graphics\\player\\up\\up_0.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up\\up_0.png',
+   'DATA'),
+  ('graphics\\player\\up\\up_1.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up\\up_1.png',
+   'DATA'),
+  ('graphics\\player\\up\\up_2.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up\\up_2.png',
+   'DATA'),
+  ('graphics\\player\\up\\up_3.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up\\up_3.png',
+   'DATA'),
+  ('graphics\\player\\up_attack\\attack_up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up_attack\\attack_up.png',
+   'DATA'),
+  ('graphics\\player\\up_idle\\idle_up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\player\\up_idle\\idle_up.png',
+   'DATA'),
+  ('graphics\\tilemap\\Floor.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\tilemap\\Floor.png',
+   'DATA'),
+  ('graphics\\tilemap\\details.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\tilemap\\details.png',
+   'DATA'),
+  ('graphics\\tilemap\\ground.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\tilemap\\ground.png',
+   'DATA'),
+  ('graphics\\ui\\heart.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\ui\\heart.png',
+   'DATA'),
+  ('graphics\\ui\\heart_half.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\ui\\heart_half.png',
+   'DATA'),
+  ('graphics\\ui\\heart_off.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\ui\\heart_off.png',
+   'DATA'),
+  ('graphics\\weapons\\axe\\down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\axe\\down.png',
+   'DATA'),
+  ('graphics\\weapons\\axe\\full.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\axe\\full.png',
+   'DATA'),
+  ('graphics\\weapons\\axe\\left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\axe\\left.png',
+   'DATA'),
+  ('graphics\\weapons\\axe\\right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\axe\\right.png',
+   'DATA'),
+  ('graphics\\weapons\\axe\\up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\axe\\up.png',
+   'DATA'),
+  ('graphics\\weapons\\lance\\down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\lance\\down.png',
+   'DATA'),
+  ('graphics\\weapons\\lance\\full.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\lance\\full.png',
+   'DATA'),
+  ('graphics\\weapons\\lance\\left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\lance\\left.png',
+   'DATA'),
+  ('graphics\\weapons\\lance\\right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\lance\\right.png',
+   'DATA'),
+  ('graphics\\weapons\\lance\\up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\lance\\up.png',
+   'DATA'),
+  ('graphics\\weapons\\rapier\\down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\rapier\\down.png',
+   'DATA'),
+  ('graphics\\weapons\\rapier\\full.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\rapier\\full.png',
+   'DATA'),
+  ('graphics\\weapons\\rapier\\left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\rapier\\left.png',
+   'DATA'),
+  ('graphics\\weapons\\rapier\\right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\rapier\\right.png',
+   'DATA'),
+  ('graphics\\weapons\\rapier\\up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\rapier\\up.png',
+   'DATA'),
+  ('graphics\\weapons\\sai\\down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sai\\down.png',
+   'DATA'),
+  ('graphics\\weapons\\sai\\full.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sai\\full.png',
+   'DATA'),
+  ('graphics\\weapons\\sai\\left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sai\\left.png',
+   'DATA'),
+  ('graphics\\weapons\\sai\\right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sai\\right.png',
+   'DATA'),
+  ('graphics\\weapons\\sai\\up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sai\\up.png',
+   'DATA'),
+  ('graphics\\weapons\\sword\\down.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sword\\down.png',
+   'DATA'),
+  ('graphics\\weapons\\sword\\full.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sword\\full.png',
+   'DATA'),
+  ('graphics\\weapons\\sword\\left.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sword\\left.png',
+   'DATA'),
+  ('graphics\\weapons\\sword\\right.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sword\\right.png',
+   'DATA'),
+  ('graphics\\weapons\\sword\\up.png',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\graphics\\weapons\\sword\\up.png',
+   'DATA'),
+  ('levels\\level_data\\level_0.tmx',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\levels\\level_data\\level_0.tmx',
+   'DATA'),
+  ('levels\\level_data\\level_0_Tile Layer 1.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\levels\\level_data\\level_0_Tile '
+   'Layer 1.csv',
+   'DATA'),
+  ('levels\\tilesets\\Floor.tsx',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\levels\\tilesets\\Floor.tsx',
+   'DATA'),
+  ('levels\\tilesets\\ground.tsx',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\levels\\tilesets\\ground.tsx',
+   'DATA'),
+  ('map\\map_Details.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_Details.csv',
+   'DATA'),
+  ('map\\map_Entities.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_Entities.csv',
+   'DATA'),
+  ('map\\map_Floor.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_Floor.csv',
+   'DATA'),
+  ('map\\map_FloorBlocks.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_FloorBlocks.csv',
+   'DATA'),
+  ('map\\map_Grass.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_Grass.csv',
+   'DATA'),
+  ('map\\map_Objects.csv',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\map\\map_Objects.csv',
+   'DATA'),
+  ('pygame\\freesansbold.ttf',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\freesansbold.ttf',
+   'DATA'),
+  ('pygame\\pygame_icon.bmp',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pygame\\pygame_icon.bmp',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\lorem ipsum.txt',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\LICENSE',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\RECORD',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('importlib_metadata-8.5.0.dist-info\\METADATA',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\importlib_metadata-8.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'c:\\users\\fran '
+   'fraga\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Fran '
+   'Fraga\\Desktop\\Projetos\\Zelda_Python\\Zelda\\build\\main\\base_library.zip',
+   'DATA')],
+ 'python38.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

@@ -31,12 +31,6 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/zora-python.git
 ```
 
-Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
 Execute o jogo:
 
 ```bash
